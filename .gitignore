@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.vercel/
+
+# temporales de verificación
+.verify-*
+.chrome-log.txt
+
+# editores / SO / varios
+.DS_Store
+Thumbs.db
+*.local
+.vscode/*
+!.vscode/extensions.json
+
+# logs
+npm-debug.log*
+yarn-error.log*
+*.log
