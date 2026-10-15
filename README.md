@@ -47,6 +47,11 @@ El build es portable (`base: './'`): sirve desde cualquier ruta o iframe.
 npm run build   # genera dist/ autocontenido
 ```
 
+**Vercel:** ver `docs/DEPLOY.md`. Resumen: subir el repo a GitHub, importar en
+https://vercel.com/new (preset Vite autodetectado: `npm run build` → `dist/`)
+y **Deploy** → `https://<proyecto>.vercel.app`. Alternativa sin GitHub:
+`vercel login && vercel deploy --prod`.
+
 **itch.io:** crea un proyecto HTML, sube un `.zip` con el contenido de `dist/`,
 viewport 1280×720, marca "This file will be played in the browser".
 
